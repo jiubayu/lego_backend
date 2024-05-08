@@ -1,0 +1,49 @@
+{
+  "name": "lego_backend",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "egg": "^3.17.5",
+    "egg-scripts": "2"
+  },
+  "devDependencies": {
+    "@alicloud/dysmsapi20170525": "^2.0.24",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "egg-bcrypt": "^1.1.0",
+    "egg-bin": "6",
+    "egg-jwt": "^3.1.7",
+    "egg-mock": "5",
+    "egg-mongoose": "^4.0.1",
+    "egg-redis": "^2.6.0",
+    "egg-validate": "^2.0.2",
+    "eslint": "8",
+    "eslint-config-egg": "13",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.3",
+    "mongoose-sequence": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-lego_backend",
+    "stop": "egg-scripts stop --title=egg-server-lego_backend",
+    "dev": "egg-bin dev",
+    "test": "npm run lint -- --fix && npm run test:local",
+    "test:local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}

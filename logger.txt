@@ -1,0 +1,9 @@
+Tue Apr 30 2024 22:15:42 GMT+0800 (中国标准时间) -- GET -- /test/4 -- 6ms
+Tue Apr 30 2024 22:15:49 GMT+0800 (中国标准时间) -- GET -- /dog -- 5343ms
+Tue Apr 30 2024 22:16:13 GMT+0800 (中国标准时间) -- GET -- /dog -- 1217ms
+Tue Apr 30 2024 22:16:20 GMT+0800 (中国标准时间) -- GET -- /test/2 -- 0ms
+Tue Apr 30 2024 22:21:22 GMT+0800 (中国标准时间) -- GET -- /test/2 -- 2ms
+Tue Apr 30 2024 22:21:26 GMT+0800 (中国标准时间) -- GET -- /test/2 -- 2ms
+Tue Apr 30 2024 22:21:39 GMT+0800 (中国标准时间) -- GET -- /test/2 -- 1ms
+Tue Apr 30 2024 22:21:43 GMT+0800 (中国标准时间) -- GET -- /test/2 -- 1ms
+Tue Apr 30 2024 22:24:57 GMT+0800 (中国标准时间) -- GET -- /dog -- 1328ms
